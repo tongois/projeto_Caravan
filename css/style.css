@@ -1,9 +1,31 @@
 body{
-    height: 3000px;
     padding-top: 75px; /* corrige o problema do conteudo escondido com o menu fixed no topo*/
 }
 
 .box-shadow{
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.05),
                 0 4px 8px 0 rgba(0,0,0,.05);
+}
+
+.icone{  /* alinha os icones que estavam desalinhados na index junto com outras propriedades da classe */
+    height: 100px;
+}
+
+#home-quote{
+    background: url('../img/bg-quote.jpg')center center;
+    background-size: cover;
+}
+
+@media (max-width:767px){
+    #home-quote .display-4{
+        font-size: 2.5em;
+    }
+    body{
+        padding-top: 0px;
+    }
+    .fixed-top{
+        position: relative;
+    }
+    
+    
 }
