@@ -16,11 +16,13 @@ body{
     background-size: cover;
 }
 
-@media (max-width:767px){
+@media (max-width:767px){ /* alterando o tamanho da fonte do blockquote quando diminuir a tela */
     #home-quote .display-4{
         font-size: 2.5em;
     }
-    body{
+    
+    /* retirando o header fixo quando diminuir a tela*/
+    body{    
         padding-top: 0px;
     }
     .fixed-top{
@@ -28,4 +30,9 @@ body{
     }
     
     
+}
+
+/* footer */
+.btn-footer  li a{
+    max-width: 140px;
 }
