@@ -1,0 +1,249 @@
+            <!DOCTYPE html>
+            <html lang="pt-br">
+              <head>
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+                <link rel="stylesheet" href="css/style.css">
+                <title>Caravan - Locais</title>
+              </head>
+              <body>
+
+           <!-- Modal -->
+        <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Entre na sua conta</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+              <div class="form-group">
+                <label for="formGroupExampleInput">Email</label>
+                <input type="text" class="form-control" id="email" >
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput2">Senha</label>
+                <input type="password" class="form-control" id="senha">
+              </div>
+                <button type="submit" class="btn btn-primary">Entrar na conta</button>
+
+                  <small class="form-text text-muted">Esqueceu a senha?<a href="">Clique aqui</a></small>
+            </form>
+
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+           <!-- FECHA MODAL -->
+
+            <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top py-3 box-shadow">
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/caravan.svg" alt="Marca">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav ml-auto">
+                          <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Locais</a>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="#"></a>
+                              <a class="dropdown-item" href="local.html">California</a>
+                                <a class="dropdown-item" href="local.html">Paris</a>
+                                <a class="dropdown-item" href="local.html">Dubai</a>
+                            </div>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="planos.html">Planos</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="contato.html">Contato</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#" data-toggle="modal" data-target="#modalLogin">Login</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="btn btn-outline-primary ml-md-2" href="inscrição.html">Inscreva-se</a>
+                          </li>
+                      </ul>
+                </div>
+            </nav>
+
+            
+
+            <section class="container">
+                   <div class="my-5 text-center">
+                    <span class="h6 d-block">O MELHOR DESTINO DA SUA VIAGEM</span>
+                    <h2 class="display-4  text-primary">Descubra Dublin</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md">
+                            <img class="img-fluid mb-3" src="img/local/foto-1.jpg" alt="">
+                            <img class="img-fluid mb-3" src="img/local/foto-2.jpg" alt="">
+                            <img class="img-fluid mb-3" src="img/local/foto-3.jpg" alt="">
+                        </div>
+                        <div class="col-md">
+                            <img class="img-fluid mb-3" src="img/local/foto-4.jpg" alt="">
+                            <img class="img-fluid mb-3" src="img/local/foto-5.jpg" alt="">
+                        </div>
+                        <div class="col-md">
+                            <img class="img-fluid mb-3" src="img/local/foto-6.jpg" alt="">
+                            <img class="img-fluid mb-3" src="img/local/foto-7.jpg" alt="">
+                        </div>
+                    </div>
+            </section>
+            
+            <section class="container">
+                <div class="my-5 text-center">
+                    <span class="h6 d-block">DESCUBRA O QUE ACONTECE NA CIDADE</span>
+                    <h2 class="display-4  text-primary">Próximos Eventos</h2>
+                    </div>
+                    <div class="row">
+                        <table class="table table-hover table-responsive-md">
+                      <thead>
+                        <tr>
+                          <th scope="col">Data</th>
+                          <th scope="col">Evento</th>
+                          <th scope="col">Local</th>
+                          <th scope="col">Ticket</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">23/10</th>
+                          <td>Mark Rufallo</td>
+                          <td>Rua Camataria ,234</td>
+                          <td><a href="" class="btn btn-outline-secondary btn-sm">Comprar Ticket</a></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">26/10</th>
+                          <td>Mark Rufallo</td>
+                          <td>Rua Camataria ,234</td>
+                          <td><a href="" class="btn btn-outline-secondary btn-sm">Comprar Ticket</a></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">30/10</th>
+                          <td>Mark Rufallo</td>
+                          <td>Rua Camataria ,234</td>
+                          <td><a href="" class="btn btn-outline-secondary btn-sm">Comprar Ticket</a></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">11/11</th>
+                          <td>Mark Rufallo</td>
+                          <td>Rua Camataria ,234</td>
+                          <td><a href="" class="btn btn-outline-secondary btn-sm">Comprar Ticket</a></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">15/11</th>
+                          <td>Mark Rufallo</td>
+                          <td>Rua Camataria ,234</td>
+                          <td><a href="" class="btn btn-outline-secondary btn-sm">Comprar Ticket</a></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    </div>
+            </section>
+
+            
+
+           
+
+            <footer  class="bg-dark text-white py-4 mt-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-6">
+                            <h4 class="h6">PÁGINAS</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="planos.html">Planos</a></li>
+                                <li><a href="contato.html">Contato</a></li>
+                                <li><a href="inscricao.html">Inscreva-se</a></li>
+                            </ul>
+                        </div>
+                         <div class="col-md-3 col-6">
+                            <h4 class="h6">LOCAIS</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="local.html">Califórnia</a></li>
+                                <li><a href="local.html">Paris</a></li>
+                                <li><a href="local.html">Dublin</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 col-6">
+                            <h4 class="h6">DADOS DE CONTATO</h4>
+                            <ul class="list-unstyled text-secondary">
+                                <li>contato@caravan.com.br</li>
+                                <li>(13) 3453-4455</li>
+                                <li>De Segunda a Sexta, das 9 ás 18</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2 col-6">
+                            <h4 class="h6">REDES SOCIAIS</h4>
+                            <ul class="list-unstyled btn-footer">
+                                <li><a href="" class="btn btn-outline-secondary btn-block mb-2 ">Facebook</a></li>
+                                <li><a href="" class="btn btn-outline-secondary btn-block mb-2 ">Instagram</a></li>
+                                <li><a href="" class="btn btn-outline-secondary btn-block mb-2">Twitter</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </footer>
+            <div class="bg-primary text-center py-3 text-white">
+                    <p class="mb-0">Caravan 2017 Todos os direitos reservados.</p>
+                </div>
+
+
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+            <script type="text/javascript" src="js/app.js"></script>
+          </body>
+        </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
