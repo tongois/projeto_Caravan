@@ -32,6 +32,16 @@ body{
     
 }
 
+/* PLANOS */
+.lista-plano li + li{
+    border-top: 1px solid rgba(0,0,0,0.2);
+}
+
+.lista-plano li{
+    padding: 1rem;
+    
+}
+
 /* footer */
 .btn-footer  li a{
     max-width: 140px;
