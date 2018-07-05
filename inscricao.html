@@ -5,7 +5,7 @@
                 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
                 <link rel="stylesheet" href="css/style.css">
-                <title>Caravan - Planos</title>
+                <title>Caravan - Contato</title>
               </head>
               <body>
 
@@ -62,10 +62,10 @@
                             </div>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link active" href="planos.html">Planos</a>
+                              <a class="nav-link" href="planos.html">Planos</a>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link" href="contato.html">Contato</a>
+                              <a class="nav-link active" href="contato.html">Contato</a>
                           </li>
                           <li class="nav-item">
                               <a class="nav-link" href="#" data-toggle="modal" data-target="#modalLogin">Login</a>
@@ -77,44 +77,124 @@
                 </div>
             </nav>
 
-            
 
-            <section class="container">
-                   <div class="my-5 text-center">
-                    <span class="h6 d-block">SUA VIAGEM,SEU PLANO</span>
-                    <h2 class="display-4  text-primary">Escola seu plano</h2>
+
+                <div class="my-5 text-center"> 
+                    <span class="h6 d-block">PLANEJE A VIAGEM DOS SEUS SONHOS</span>
+                    <h2 class="display-4  text-primary">Inscreva-se</h2>
                     </div>
-                    <div class="row">
-                        <div class="col-md">
-                            <div class="bg-light rounded p-4 box-shadow">
-                            <h2>Gold</h2>
-                            <ul class="lista-plano list-unstyled">
-                                <li>30 dias de viagem</li>
-                                <li>3 destinos diferentes</li>
-                                <li>Tudo pago pela empresa</li>
-                                <li>Ingressos para festas</li>
-                            </ul>
-                            <form action="">
-                                <div class="form-group">
-                                <select class="form-control bg-light" id="inputCidades">
-                                  <option>Selecione a cidade</option>
-                                  <option>Califórnia</option>
-                                  <option>Paris</option>
-                                  <option>Dublin</option>
-                                </select>
-                              </div>
-                            </form>
-                            <div class="row align-items-center mt-4">
-                                <div class="col">
-                                    <a href="" class="btn btn-primary btn-lg btn-block">Comprar Plano</a>
+                    
+                    <section class="container">
+                        <div class="row">
+                            <div class="col-md-7">
+                               <h2 class="h6 text-primary mb-3"> PLANO ESCOLHIDO</h2>
+                                <form>
+                                  <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                      <label for="inputEmail4">Nome</label>
+                                      <input type="email" class="form-control" id="inputEmail4" placeholder="Nome Completo">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                      <label for="inputPassword4">CPF</label>
+                                      <input type="password" class="form-control" id="inputPassword4" placeholder="XXX-XXX-XXX-XX">
+                                    </div>
+                                  </div>
+                                  <div class="form-row">
+                                  <div class="form-group col-md-6">
+                                    <label for="inputAddress">Email</label>
+                                    <input type="email" class="form-control" id="inputAddress" placeholder="Email de acesso">
+                                  </div>
+                                  <div class="form-group col-md-6">
+                                    <label for="inputAddress2">Senha</label>
+                                    <input type="password" class="form-control" id="inputAddress2" placeholder="Senha de Acesso">
+                                  </div>
                                 </div>
-                                <div class="col">
-                                    <span class="h4">R$5.000</span>
-                                </div>
+                                <div class="form-row">
+                                 <div class="form-group col-md-12 col-6">
+                                    <label for="inputAddress2">Endereço</label>
+                                    <input type="text" class="form-control" id="inputAddress2" placeholder="Rua, nº, Bairro">
+                                  </div>
+                                  
+                                  
+                                    <div class="form-group col">
+                                      <label for="inputCity">Cidade</label>
+                                      <input type="text" class="form-control" id="inputCity">
+                                    </div>
+                                    <div class="form-group col-md-3 col-6">
+                                      <label for="inputState">Estado</label>
+                                      <select id="inputState" class="form-control">
+                                        <option selected>Escolha</option>
+                                        <option>São Paulo</option>
+                                        <option>Rio de Janeiro</option>
+                                        <option>Minas Gerais</option>
+                                        <option>Rio Grande do Sul</option>
+                                        <option>Bahia</option>
+                                        <option>Amapá</option>
+                                      </select>
+                                    </div>
+                                    <div class="form-group col-md-3 col-6">
+                                      <label for="inputZip">CEP</label>
+                                      <input type="text" class="form-control" id="inputZip" placeholder="XXXXX-XXX">
+                                    </div>
+                                  </div>                                 
+                                </form>
+                                
+                                <form action="" class="my-3 bg-light box-shadow p-3">
+                                    <h2 class="h6 text-primary">FORMA DE PAGAMENTO</h2>
+                                    <div class="btn-group mb-3" role="group" aria-label="Basic example">
+                                      <button type="button" class="btn btn-secondary" id="nav-cartao-tab">Cartão de Crédito</button>
+                                      <button type="button" class="btn btn-secondary" id="nav-boleto-tab">Boleto Bancário</button>
+                                    </div>
+                                    <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                      <label for="inputEmail4">Nome do Cartão</label>
+                                      <input type="email" class="form-control" id="inputEmail4" placeholder="Nome impresso no cartão">
+                                    </div>
+                                    <div class="form-group col-md-3">
+                                      <label for="inputState">Mês</label>
+                                      <select id="inputState" class="form-control">
+                                        <option selected>Expira mês..</option>
+                                        <option>São Paulo</option>
+                                        <option>Rio de Janeiro</option>
+                                        <option>Minas Gerais</option>
+                                        <option>Rio Grande do Sul</option>
+                                        <option>Bahia</option>
+                                        <option>Amapá</option>
+                                      </select>
+                                    </div>
+                                    <div class="form-group col-md-3">
+                                      <label for="inputState">Ano</label>
+                                      <select id="inputState" class="form-control">
+                                        <option selected>Expira ano...</option>
+                                        <option>São Paulo</option>
+                                        <option>Rio de Janeiro</option>
+                                        <option>Minas Gerais</option>
+                                        <option>Rio Grande do Sul</option>
+                                        <option>Bahia</option>
+                                        <option>Amapá</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                  <div class="form-row">
+                                      <div class="form-group col-md-6">
+                                      <label for="inputEmail4">Nº do Cartão</label>
+                                      <input type="email" class="form-control" id="inputEmail4" placeholder="XXXX XXXX XXXX XXX">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                      <label for="inputEmail4">Código de Segurança</label>
+                                      <input type="email" class="form-control" id="inputEmail4" placeholder="XXX">
+                                    </div>
+                                  </div>
+                                </form>
+                                <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Concordo com os <a href="" class="">Termos e Condições.</a></label>
+                                  </div>
+                                  <button type="submit" class="btn btn-primary">Contratar Plano</button>
                             </div>
-                            </div>
-                        </div>
-                        <div class="col">
+                            
+                            <div class="col-lg-5 mx-auto order-first order-lg-1 mb-5"> <!-- COLOCA ESSA DIV EM PRIMEIRO NO MOBILE -->
+                            <h5 class="text-primary">PLANO ESCOLHIDO</h5>
                            <div class="bg-light rounded p-4 box-shadow">
                             <h2>Platinum <span class="badge badge-success">Novo</span></h2>
                             <ul class="lista-plano list-unstyled">
@@ -135,18 +215,18 @@
                             </form>
                             <div class="row align-items-center mt-4">
                                 <div class="col">
-                                    <a href="" class="btn btn-primary btn-lg btn-block">Comprar Plano</a>
-                                </div>
-                                <div class="col">
-                                    <span class="h4">R$5.000</span>
+                                    <span class="h4">R$7.500</span>
                                 </div>
                             </div>
                             </div>
                         </div>
-                    </div>
-            </section>
-            
-            
+                        </div>
+                    </section>
+                    
+
+         
+
+
 
             <footer  class="bg-dark text-white py-4 mt-5">
                 <div class="container">
